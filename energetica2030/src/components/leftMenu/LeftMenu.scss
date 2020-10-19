@@ -1,0 +1,26 @@
+@import "../../index.scss";
+
+.left-menu {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px 20px 20px 40px;
+
+    a {
+        color: $font-grey;
+        font-size: 18px;
+        margin-bottom: 20px;
+
+        svg {
+            margin-right: 15px; 
+            font-size: 20px;
+            color: $primary-light;  
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: $primary-light;
+        }
+    }    
+}
